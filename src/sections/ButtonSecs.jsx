@@ -1,7 +1,9 @@
+import { useState } from "react";
 import Button from "../components/Button";
 import SectionTitle from "../components/SectionTitle";
 
 const ButtonSecs = () => {
+  const [btnData, setBtnData] = useState("");
   return (
     <div>
       <SectionTitle>Button</SectionTitle>
